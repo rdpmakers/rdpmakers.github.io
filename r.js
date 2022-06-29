@@ -1,3 +1,3 @@
 document.getElementById("myButton").onclick = function () {
-location.href = "www.yoursite.com";
+location.href = "https://remotedesktop.google.com/headless";
 };
