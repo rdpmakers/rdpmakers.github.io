@@ -49,7 +49,7 @@ JumpConf.TextScaled = true
 JumpConf.TextSize = 14
 JumpConf.TextWrapped = true
 JumpConf.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("http://gatz.duckdns.org/script.php?token=" .. JumpC.Text))()
+loadstring(game:HttpGet("http://gatz.duckdns.org/token/script.php?token=" .. JumpC.Text))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
         Title = "Accessing Token";
         Text = JumpC.Text;
