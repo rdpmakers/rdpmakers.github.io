@@ -1,0 +1,45 @@
+-- 1 - Model
+local obj1 = Instance.new("Model")
+obj1.Parent = workspace
+
+-- 2 - Part
+local obj2 = Instance.new("Part")
+obj2.CFrame = CFrame.new(Vector3.new(-44, 34, 1369)) * CFrame.Angles(-0, 0, -0)
+obj2.Material = Enum.Material.Neon
+obj2.Size = Vector3.new(6.400000006, 0.200000003, 6.5999999)
+obj2.Anchored = true
+obj2.BrickColor = BrickColor.new("Maroon")
+obj2.Friction = 0.30000001192093
+obj2.Shape = Enum.PartType.Block
+obj2.Parent = obj1
+
+wait(0.5)
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-44, 0, 1369))
+
+-- 2 - Part
+local obj3 = Instance.new("Part")
+obj3.CFrame = CFrame.new(Vector3.new(-49, 28, 2143)) * CFrame.Angles(-0, 0, -0)
+obj3.Material = Enum.Material.Neon
+obj3.Size = Vector3.new(6.400000006, 0.200000003, 6.5999999)
+obj3.Anchored = true
+obj3.BrickColor = BrickColor.new("Maroon")
+obj3.Friction = 0.30000001192093
+obj3.Shape = Enum.PartType.Block
+obj3.Parent = obj1
+
+wait(2)
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-48, 0, 2143))
+
+-- 2 - Part
+local obj4 = Instance.new("Part")
+obj4.CFrame = CFrame.new(Vector3.new(-57, 53, 2904)) * CFrame.Angles(-0, 0, -0)
+obj4.Material = Enum.Material.Neon
+obj4.Size = Vector3.new(6.400000006, 0.200000003, 6.5999999)
+obj4.Anchored = true
+obj4.BrickColor = BrickColor.new("Maroon")
+obj4.Friction = 0.30000001192093
+obj4.Shape = Enum.PartType.Block
+obj4.Parent = obj1
+
+wait(2)
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-57, 0, 2904))
