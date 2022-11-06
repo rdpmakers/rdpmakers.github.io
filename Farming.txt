@@ -129,3 +129,7 @@ game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-43, 23, 7716))
 
 wait(2)
 game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-53, -356, 9499))
+wait(1.25)
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-53, -356, 9499))
+wait(1.25)
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-53, -356, 9499))
