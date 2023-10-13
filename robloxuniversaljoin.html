@@ -8,16 +8,18 @@
 <script>
   const urlParams = new URLSearchParams(window.location.search);
 
-  // Access the "name" and "age" parameters
-  const name = urlParams.get("placed"); // "John"
-  const age = urlParams.get("instanceid");   // "30"
+  //parameters
+  const placeid = urlParams.get("placeid");
+  const instanceid = urlParams.get("instanceid");
 
   //Redurect
   document.getElementById("instance").innerHTML = `instanceId: ${instanceid}`;
+  document.getElementById("placeid").innerHTML = `PlaceId: ${placeid}`;
+
 </script>
 
-<p id="name"></p>
-<p id="instanceId"></p>
+<p id="placeid"></p>
+<p id="instance"></p>
 
 </body>
 </html>
