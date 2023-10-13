@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Join</title>
+</head>
+<body>
+
+<script>
+  const urlParams = new URLSearchParams(window.location.search);
+
+  // Access the "name" and "age" parameters
+  const name = urlParams.get("placed"); // "John"
+  const age = urlParams.get("instanceid");   // "30"
+
+  //Redurect
+  document.getElementById("instance").innerHTML = `instanceId: ${instanceid}`;
+</script>
+
+<p id="name"></p>
+<p id="instanceId"></p>
+
+</body>
+</html>
